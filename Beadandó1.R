@@ -1,9 +1,10 @@
-#1. Hozz lÈtre egy fgv-t, amely ".csv", ".sav", ".json" vagy ".xlsx" [elsı munkalap] 
-#f·jlneveket fogad el bemenetkÈnt (ak·r tˆbbet is), Ès azokat automatikusan beolvassa 
-#Ès egy list·ba ˆsszef˚zi, ˙gy hogy minden eleme egy data.frame form·tum legyen
+#1. Hozz l√©tre egy fgv-t, amely ".csv", ".sav", ".json" vagy ".xlsx" [els√µ munkalap] 
+#f√°jlneveket fogad el bemenetk√©nt (ak√°r t√∂bbet is), √©s azokat automatikusan beolvassa 
+#√©s egy list√°ba √∂sszef√ªzi, √∫gy hogy minden eleme egy data.frame form√°tum legyen
 
 
-
+#minden f√°jlt√≠pusra tesztelve. A l√°that√≥ sablon alapj√°n v√©gtelen sz√°m√∫ √∫j bemenetet lehet hozz√°adni. Az excel beolvas√°shoz a readxl-t 
+#package-t haszn√°ltam
 
 fgv = function(a,b) {
       if (grepl(".csv",a)) {
@@ -77,7 +78,7 @@ fgv = function(a,b) {
       
                               
                 
-fgv("ak·rmi.xlsx","ESS6_2.sav") 
+fgv("ak√°rmi.xlsx","ESS6_2.sav") 
  
 install.packages("readxl")
 
